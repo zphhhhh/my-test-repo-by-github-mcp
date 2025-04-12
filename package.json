@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "A React demo project using Rspack",
   "main": "src/index.js",
+  "homepage": "https://zphhhhh.github.io/my-test-repo-by-github-mcp",
   "scripts": {
     "dev": "rspack serve",
     "build": "rspack build",
     "start": "rspack serve --env production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "react",
@@ -26,6 +29,7 @@
     "@rspack/plugin-react-refresh": "^0.5.8",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
+    "gh-pages": "^6.1.1",
     "typescript": "^5.3.3"
   }
 }
