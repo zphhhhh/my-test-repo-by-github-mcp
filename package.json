@@ -1,0 +1,31 @@
+{
+  "name": "my-test-repo-by-github-mcp",
+  "version": "1.0.0",
+  "description": "A React demo project using Rspack",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build",
+    "start": "rspack serve --env production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "rspack",
+    "demo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^0.5.8",
+    "@rspack/core": "^0.5.8",
+    "@rspack/plugin-react-refresh": "^0.5.8",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
+  }
+}
